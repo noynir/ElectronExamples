@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Electron App</title>
+</head>
+<body>
+    <h1>Hello Electron!</h1>
+    
+    <script>
+        var dv=document.createElement('div');
+            dv.innerHTML=`We are using node ${process.versions.node}
+                <br/>Chrome ${process.versions.chrome}<br/>
+                 Electron ${process.versions.electron}`;   
+        document.body.appendChild(dv);
+    </script>
+</body>
+</html>
